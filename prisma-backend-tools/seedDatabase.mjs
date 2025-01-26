@@ -25,6 +25,7 @@ async function seedData() {
     }
 
     console.log('Data seeded successfully');
+    console.log(jobs)
   } catch (error) {
     console.error('Error seeding data:', error);
   } finally {
