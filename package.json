@@ -10,7 +10,8 @@
     "test": "jest",
     "navigate-db": "npx prisma studio --schema ./prisma-backend-tools/schema.prisma",
     "generate-db": "npx prisma generate --schema ./prisma-backend-tools/schema.prisma",
-    "populate-db": "node ./prisma-backend-tools/seedDatabase.mjs"
+    "populate-db": "node ./prisma-backend-tools/seedDatabase.mjs",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
